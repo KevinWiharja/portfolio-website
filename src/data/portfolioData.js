@@ -13,20 +13,40 @@ export const projects = [
     // description: "Deep reinforcement learning system for drone path planning in complex environments using PPO and custom reward functions.",
     longDescription: "Developed a healthcare prediction system that classifies obesity categories with 94% accuracy using XGBoost, advanced preprocessing, and GridSearchCV optimization. Deployed through an interactive Streamlit app connected to FastAPI and PostgreSQL, the system allows real-time user input while featuring an autonomous retraining pipeline that updates the model every 100 entries, ensuring continuous improvement without human intervention.",
     tags: ["Scikit-learn", "XGBoost", "Streamlit", "PostgreSQL", "FastAPI", "Pickle"],
-    metrics: { model:"XGBoost", accuracy:"97%", operation:"End-to-end" },
+    metrics: { model:"XGBoost", accuracy:"94%", operation:"End-to-end" },
     github: "https://github.com/KevinWiharja/ML_Training_Automation",
     // demo: "#",
     featured: true
   },
   {
-    title: "AI Chatbot",
+    title: "Restaurant Recommendation System",
     // description: "Transformer-based model for 3D medical image analysis achieving state-of-the-art accuracy in tumor detection.",
-    longDescription: "Developed an intelligent chatbot on the Discord platform by integrating Google Gemini API for natural language understanding and n8n for workflow automation. The system automatically fetches and processes chat messages, manages prompts dynamically, and delivers real-time, context-aware responses. The project involves API integration and conversational AI deployment on a live communication platform.",
+    longDescription: "Built a content-based restaurant recommendation system using over 15,000 records. After cleaning the data to ensure quality, two Bag of Words models are developed: one focusing on cuisines and another combining location, cost, rating, and cuisines for richer recommendations. Using cosine similarity, the system provides personalized restaurant suggestions based on restaurant attributes without relying on user ratings.",
+    tags: ["Python", "Bag of Words"],
+    metrics: { Language: "Python", Pairwise: "Cosine Similarity", Source:"TSV"},
+    github: "https://github.com/KevinWiharja/Recommendation-System",
+    // demo: "#",
+    featured: true
+  },
+  {
+    title: "AI Chatbot",
+    description: "Developed an intelligent chatbot on the Discord platform by integrating Google Gemini API for natural language understanding and n8n for workflow automation. The system automatically fetches and processes chat messages, manages prompts dynamically, and delivers real-time, context-aware responses. The project involves API integration and conversational AI deployment on a live communication platform.",
+    // longDescription: "Developed an intelligent chatbot on the Discord platform by integrating Google Gemini API for natural language understanding and n8n for workflow automation. The system automatically fetches and processes chat messages, manages prompts dynamically, and delivers real-time, context-aware responses. The project involves API integration and conversational AI deployment on a live communication platform.",
     tags: ["n8n", "Docker", "API", "Discord", "Javascript"],
     metrics: { platform: "Discord", API: "Google Gemini", tools:"n8n"},
     github: "https://github.com/KevinWiharja/Discord-AI-Chatbot",
     // demo: "#",
-    featured: true
+    featured: false
+  },
+  {
+    title: "University Medallion Pipeline",
+    description: "This project implements the Medallion Data Architecture (Bronze, Silver, Gold) using academic student data, with Google Sheets serving as both the raw data source and the final BI reporting layer. It demonstrates the complete ETL/ELT pipeline, effectively transforming raw, unstructured data from Sheets (Bronze) into cleaned, dimensionally modeled data (Silver), culminating in aggregated analytical reports (Gold) like cumulative GPA summaries. This setup provides a practical, low-cost model for learning robust data pipeline and data lakehouse principles.",
+    // longDescription: "This project implements the Medallion Data Architecture (Bronze, Silver, Gold) using academic student data, with Google Sheets serving as both the raw data source and the final BI reporting layer. It demonstrates the complete ETL/ELT pipeline, effectively transforming raw, unstructured data from Sheets (Bronze) into cleaned, dimensionally modeled data (Silver), culminating in aggregated analytical reports (Gold) like cumulative GPA summaries. This setup provides a practical, low-cost model for learning robust data pipeline and data lakehouse principles.",
+    tags: ["Sheets", "Pipeline", "SQL"],
+    metrics: { platform: "Delman Data Lab", Sector: "Education", Architecture: "Medallion"},
+    github: "https://github.com/KevinWiharja/medallion-architecture",
+    demo: "#",
+    featured: false
   }
   // {
   //   title: "AI-Powered Code Assistant",
