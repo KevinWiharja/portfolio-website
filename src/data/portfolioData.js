@@ -19,12 +19,12 @@ export const projects = [
     featured: true
   },
   {
-    title: "Restaurant Recommendation System",
+    title: "Gemini RAG",
     // description: "Transformer-based model for 3D medical image analysis achieving state-of-the-art accuracy in tumor detection.",
-    longDescription: "Built a content-based restaurant recommendation system using over 15,000 records. After cleaning the data to ensure quality, two Bag of Words models are developed: one focusing on cuisines and another combining location, cost, rating, and cuisines for richer recommendations. Using cosine similarity, the system provides personalized restaurant suggestions based on restaurant attributes without relying on user ratings.",
-    tags: ["Python", "Bag of Words"],
-    metrics: { Language: "Python", Pairwise: "Cosine Similarity", Source:"TSV"},
-    github: "https://github.com/KevinWiharja/Recommendation-System",
+    longDescription: "The Brew Haven RAG Assistant is a modern AI solution using Google Gemini for generation and LangChain for orchestration. It provides precise, document-based answers about the coffeeshop business by retrieving information from a Pinecone VectorDB (using NVIDIA Llama embeddings). The application is deployed with a FastAPI backend and a user-friendly Streamlit frontend, fully containerized via Docker Compose for reliable, one-command deployment.",
+    tags: ["Python", "Docker", "Streamlit", "Google Gemini API"],
+    metrics: { Framework: "Langchain", VectorDB: "Pinecone", Embedder: "Llama"},
+    github: "https://github.com/KevinWiharja/gemini-RAG",
     // demo: "#",
     featured: true
   },
@@ -39,22 +39,22 @@ export const projects = [
     featured: false
   },
   {
-    title: "University Medallion Pipeline",
-    description: "This project implements the Medallion Data Architecture (Bronze, Silver, Gold) using academic student data, with Google Sheets serving as both the raw data source and the final BI reporting layer. It demonstrates the complete ETL/ELT pipeline, effectively transforming raw, unstructured data from Sheets (Bronze) into cleaned, dimensionally modeled data (Silver), culminating in aggregated analytical reports (Gold) like cumulative GPA summaries. This setup provides a practical, low-cost model for learning robust data pipeline and data lakehouse principles.",
-    // longDescription: "This project implements the Medallion Data Architecture (Bronze, Silver, Gold) using academic student data, with Google Sheets serving as both the raw data source and the final BI reporting layer. It demonstrates the complete ETL/ELT pipeline, effectively transforming raw, unstructured data from Sheets (Bronze) into cleaned, dimensionally modeled data (Silver), culminating in aggregated analytical reports (Gold) like cumulative GPA summaries. This setup provides a practical, low-cost model for learning robust data pipeline and data lakehouse principles.",
-    tags: ["Sheets", "Pipeline", "SQL"],
-    metrics: { platform: "Delman Data Lab", Sector: "Education", Architecture: "Medallion"},
-    github: "https://github.com/KevinWiharja/medallion-architecture",
-    demo: "#",
+    title: "Restaurant Recommendation System",
+    description: "Built a content-based restaurant recommendation system using over 15,000 records. After cleaning the data to ensure quality, two Bag of Words models are developed: one focusing on cuisines and another combining location, cost, rating, and cuisines for richer recommendations. Using cosine similarity, the system provides personalized restaurant suggestions based on restaurant attributes without relying on user ratings.",
+    // longDescription: "Built a content-based restaurant recommendation system using over 15,000 records. After cleaning the data to ensure quality, two Bag of Words models are developed: one focusing on cuisines and another combining location, cost, rating, and cuisines for richer recommendations. Using cosine similarity, the system provides personalized restaurant suggestions based on restaurant attributes without relying on user ratings.",
+    tags: ["Python", "Bag of Words"],
+    metrics: { Language: "Python", Pairwise: "Cosine Similarity", Source:"TSV"},
+    github: "https://github.com/KevinWiharja/Recommendation-System",
+    // demo: "#",
     featured: false
   }
   // {
-  //   title: "AI-Powered Code Assistant",
-  //   description: "LLM-based tool that suggests code improvements, detects vulnerabilities, and automates code reviews.",
-  //   longDescription: "Created an intelligent code assistant that helps developers write better code. The system uses fine-tuned LLMs to provide contextual suggestions, detect security vulnerabilities, and automate code reviews.",
-  //   tags: ["LLMs", "FastAPI", "React", "Code Analysis", "Security"],
-  //   metrics: { bugs: "85% reduction", time: "40% faster", users: "500+" },
-  //   github: "https://github.com/aidev/code-assistant",
+  //   title: "University Medallion Pipeline",
+  //   description: "This project implements the Medallion Data Architecture (Bronze, Silver, Gold) using academic student data, with Google Sheets serving as both the raw data source and the final BI reporting layer. It demonstrates the complete ETL/ELT pipeline, effectively transforming raw, unstructured data from Sheets (Bronze) into cleaned, dimensionally modeled data (Silver), culminating in aggregated analytical reports (Gold) like cumulative GPA summaries. This setup provides a practical, low-cost model for learning robust data pipeline and data lakehouse principles.",
+  //   // longDescription: "This project implements the Medallion Data Architecture (Bronze, Silver, Gold) using academic student data, with Google Sheets serving as both the raw data source and the final BI reporting layer. It demonstrates the complete ETL/ELT pipeline, effectively transforming raw, unstructured data from Sheets (Bronze) into cleaned, dimensionally modeled data (Silver), culminating in aggregated analytical reports (Gold) like cumulative GPA summaries. This setup provides a practical, low-cost model for learning robust data pipeline and data lakehouse principles.",
+  //   tags: ["Sheets", "Pipeline", "SQL"],
+  //   metrics: { platform: "Delman Data Lab", Sector: "Education", Architecture: "Medallion"},
+  //   github: "https://github.com/KevinWiharja/medallion-architecture",
   //   demo: "#",
   //   featured: false
   // }
