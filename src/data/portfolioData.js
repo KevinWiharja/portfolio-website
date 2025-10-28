@@ -29,13 +29,13 @@ export const projects = [
     featured: true
   },
   {
-    title: "AI Chatbot",
-    description: "Developed an intelligent chatbot on the Discord platform by integrating Google Gemini API for natural language understanding and n8n for workflow automation. The system automatically fetches and processes chat messages, manages prompts dynamically, and delivers real-time, context-aware responses. The project involves API integration and conversational AI deployment on a live communication platform.",
-    // longDescription: "Developed an intelligent chatbot on the Discord platform by integrating Google Gemini API for natural language understanding and n8n for workflow automation. The system automatically fetches and processes chat messages, manages prompts dynamically, and delivers real-time, context-aware responses. The project involves API integration and conversational AI deployment on a live communication platform.",
-    tags: ["n8n", "Docker", "API", "Discord", "Javascript"],
-    metrics: { platform: "Discord", API: "Google Gemini", tools:"n8n"},
-    github: "https://github.com/KevinWiharja/Discord-AI-Chatbot",
-    // demo: "#",
+    title: "University Medallion Pipeline",
+    description: "This project implements the Medallion Data Architecture (Bronze, Silver, Gold) using academic student data, with Google Sheets serving as both the raw data source and the final BI reporting layer. It demonstrates the complete ETL/ELT pipeline, effectively transforming raw, unstructured data from Sheets (Bronze) into cleaned, dimensionally modeled data (Silver), culminating in aggregated analytical reports (Gold) like cumulative GPA summaries. This setup provides a practical, low-cost model for learning robust data pipeline and data lakehouse principles.",
+    // longDescription: "This project implements the Medallion Data Architecture (Bronze, Silver, Gold) using academic student data, with Google Sheets serving as both the raw data source and the final BI reporting layer. It demonstrates the complete ETL/ELT pipeline, effectively transforming raw, unstructured data from Sheets (Bronze) into cleaned, dimensionally modeled data (Silver), culminating in aggregated analytical reports (Gold) like cumulative GPA summaries. This setup provides a practical, low-cost model for learning robust data pipeline and data lakehouse principles.",
+    tags: ["Sheets", "Pipeline", "SQL"],
+    metrics: { platform: "Delman Data Lab", Sector: "Education", Architecture: "Medallion"},
+    github: "https://github.com/KevinWiharja/medallion-architecture",
+    demo: "#",
     featured: false
   },
   {
@@ -48,16 +48,16 @@ export const projects = [
     // demo: "#",
     featured: false
   }
-  // {
-  //   title: "University Medallion Pipeline",
-  //   description: "This project implements the Medallion Data Architecture (Bronze, Silver, Gold) using academic student data, with Google Sheets serving as both the raw data source and the final BI reporting layer. It demonstrates the complete ETL/ELT pipeline, effectively transforming raw, unstructured data from Sheets (Bronze) into cleaned, dimensionally modeled data (Silver), culminating in aggregated analytical reports (Gold) like cumulative GPA summaries. This setup provides a practical, low-cost model for learning robust data pipeline and data lakehouse principles.",
-  //   // longDescription: "This project implements the Medallion Data Architecture (Bronze, Silver, Gold) using academic student data, with Google Sheets serving as both the raw data source and the final BI reporting layer. It demonstrates the complete ETL/ELT pipeline, effectively transforming raw, unstructured data from Sheets (Bronze) into cleaned, dimensionally modeled data (Silver), culminating in aggregated analytical reports (Gold) like cumulative GPA summaries. This setup provides a practical, low-cost model for learning robust data pipeline and data lakehouse principles.",
-  //   tags: ["Sheets", "Pipeline", "SQL"],
-  //   metrics: { platform: "Delman Data Lab", Sector: "Education", Architecture: "Medallion"},
-  //   github: "https://github.com/KevinWiharja/medallion-architecture",
-  //   demo: "#",
-  //   featured: false
-  // }
+    // {
+    //   title: "AI Chatbot",
+    //   description: "Developed an intelligent chatbot on the Discord platform by integrating Google Gemini API for natural language understanding and n8n for workflow automation. The system automatically fetches and processes chat messages, manages prompts dynamically, and delivers real-time, context-aware responses. The project involves API integration and conversational AI deployment on a live communication platform.",
+    //   // longDescription: "Developed an intelligent chatbot on the Discord platform by integrating Google Gemini API for natural language understanding and n8n for workflow automation. The system automatically fetches and processes chat messages, manages prompts dynamically, and delivers real-time, context-aware responses. The project involves API integration and conversational AI deployment on a live communication platform.",
+    //   tags: ["n8n", "Docker", "API", "Discord", "Javascript"],
+    //   metrics: { platform: "Discord", API: "Google Gemini", tools:"n8n"},
+    //   github: "https://github.com/KevinWiharja/Discord-AI-Chatbot",
+    //   // demo: "#",
+    //   featured: false
+    // },
 ];
 
 export const experience = [
